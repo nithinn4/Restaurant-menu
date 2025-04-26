@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Restaurant Menu</title>
+    <style>
+        /* Basic styling */
+        body {
+            font-family: Arial;
+            margin: 0;
+            padding: 20px;
+            background-color: lightgray;
+        }
+        
+        h1 {
+            color: darkred;
+            text-align: center;
+        }
+        
+        h2 {
+            color: darkred;
+            border-bottom: 1px solid darkred;
+            padding-bottom: 5px;
+        }
+        
+        .menu-section {
+            margin-bottom: 30px;
+        }
+        
+        .menu-item {
+            margin: 15px 0;
+            padding: 5px;
+            background-color: white;
+        }
+        
+        .item-name {
+            font-weight: bold;
+        }
+        
+        .item-price {
+            float: right;
+            color: darkred;
+            font-weight: bold;
+        }
+        
+        .item-description {
+            color: dimgray;
+            margin-top: 5px;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+            color: black; /* Changed to black since lightgray background is bright enough */
+        }
+    </style>
+</head>
+<body>
+    <!-- Restaurant name -->
+    <h1>Tasty Bites Restaurant</h1>
+    
+    <!-- Appetizers section -->
+    <div class="menu-section">
+        <h2>Appetizers</h2>
+        
+        <div class="menu-item">
+            <div class="item-name">Garlic Bread</div>
+            <div class="item-price">$5.99</div>
+            <div class="item-description">Toasted bread with garlic butter and herbs</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-name">Mozzarella Sticks</div>
+            <div class="item-price">$7.99</div>
+            <div class="item-description">Crispy outside, melty cheese inside, with marinara sauce</div>
+        </div>
+    </div>
+    
+    <!-- Main Dishes section -->
+    <div class="menu-section">
+        <h2>Main Dishes</h2>
+        
+        <div class="menu-item">
+            <div class="item-name">Cheeseburger</div>
+            <div class="item-price">$12.99</div>
+            <div class="item-description">Beef patty with cheese, lettuce, tomato, and special sauce</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-name">Spaghetti</div>
+            <div class="item-price">$10.99</div>
+            <div class="item-description">Pasta with tomato sauce and meatballs</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-name">Grilled Chicken</div>
+            <div class="item-price">$14.99</div>
+            <div class="item-description">Seasoned chicken breast with vegetables</div>
+        </div>
+    </div>
+    
+    <!-- Desserts section -->
+    <div class="menu-section">
+        <h2>Desserts</h2>
+        
+        <div class="menu-item">
+            <div class="item-name">Chocolate Cake</div>
+            <div class="item-price">$6.99</div>
+            <div class="item-description">Rich chocolate cake with vanilla ice cream</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-name">Apple Pie</div>
+            <div class="item-price">$5.99</div>
+            <div class="item-description">Warm apple pie with cinnamon</div>
+        </div>
+    </div>
+    
+    <!-- Footer with restaurant info -->
+    <div class="footer">
+        <p>Tasty Bites Restaurant | 123 Food Street | Call: 555-1234</p>
+        <p>Open Daily 11am - 10pm</p>
+    </div>
+</body>
+</html>
